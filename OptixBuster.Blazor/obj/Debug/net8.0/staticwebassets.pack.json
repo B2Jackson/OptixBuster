@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/bjackson/git/TechTests/OptixBuster/OptixBuster.Blazor/bin/Debug/net8.0/wwwroot/_framework/blazor.webassembly.js",
+      "PackagePath": "staticwebassets/_framework/blazor.webassembly.js"
+    },
+    {
+      "Id": "/Users/bjackson/git/TechTests/OptixBuster/OptixBuster.Blazor/obj/Debug/net8.0/scopedcss/bundle/OptixBuster.Blazor.styles.css",
+      "PackagePath": "staticwebassets/OptixBuster.Blazor.styles.css"
+    },
+    {
+      "Id": "/Users/bjackson/git/TechTests/OptixBuster/OptixBuster.Blazor/wwwroot/css/app.css",
+      "PackagePath": "staticwebassets/css/app.css"
+    },
+    {
+      "Id": "/Users/bjackson/git/TechTests/OptixBuster/OptixBuster.Blazor/wwwroot/css/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/bjackson/git/TechTests/OptixBuster/OptixBuster.Blazor/wwwroot/css/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/bjackson/git/TechTests/OptixBuster/OptixBuster.Blazor/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "/Users/bjackson/git/TechTests/OptixBuster/OptixBuster.Blazor/wwwroot/icon-192.png",
+      "PackagePath": "staticwebassets/icon-192.png"
+    },
+    {
+      "Id": "/Users/bjackson/git/TechTests/OptixBuster/OptixBuster.Blazor/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "/Users/bjackson/git/TechTests/OptixBuster/OptixBuster.Blazor/wwwroot/sample-data/weather.json",
+      "PackagePath": "staticwebassets/sample-data/weather.json"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.OptixBuster.Blazor.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.OptixBuster.Blazor.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.OptixBuster.Blazor.props",
+      "PackagePath": "build\\OptixBuster.Blazor.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.OptixBuster.Blazor.props",
+      "PackagePath": "buildMultiTargeting\\OptixBuster.Blazor.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.OptixBuster.Blazor.props",
+      "PackagePath": "buildTransitive\\OptixBuster.Blazor.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

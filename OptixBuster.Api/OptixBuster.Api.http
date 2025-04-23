@@ -1,0 +1,6 @@
+@OptixBuster.Api_HostAddress = http://localhost:5223
+
+GET {{OptixBuster.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

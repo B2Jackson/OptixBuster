@@ -1,0 +1,398 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/bjackson/git/TechTests/OptixBuster/OptixBuster.Tests/OptixBuster.Tests.csproj": {}
+  },
+  "projects": {
+    "/Users/bjackson/git/TechTests/OptixBuster/OptixBuster.Api/OptixBuster.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/bjackson/git/TechTests/OptixBuster/OptixBuster.Api/OptixBuster.Api.csproj",
+        "projectName": "OptixBuster.Api",
+        "projectPath": "/Users/bjackson/git/TechTests/OptixBuster/OptixBuster.Api/OptixBuster.Api.csproj",
+        "packagesPath": "/Users/bjackson/.nuget/packages/",
+        "outputPath": "/Users/bjackson/git/TechTests/OptixBuster/OptixBuster.Api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/bjackson/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/Loki-Labs/KCUK/_packaging/KCUK/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/bjackson/git/TechTests/OptixBuster/OptixBuster.Dtos/OptixBuster.Dtos.csproj": {
+                "projectPath": "/Users/bjackson/git/TechTests/OptixBuster/OptixBuster.Dtos/OptixBuster.Dtos.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.13, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/bjackson/git/TechTests/OptixBuster/OptixBuster.Blazor/OptixBuster.Blazor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/bjackson/git/TechTests/OptixBuster/OptixBuster.Blazor/OptixBuster.Blazor.csproj",
+        "projectName": "OptixBuster.Blazor",
+        "projectPath": "/Users/bjackson/git/TechTests/OptixBuster/OptixBuster.Blazor/OptixBuster.Blazor.csproj",
+        "packagesPath": "/Users/bjackson/.nuget/packages/",
+        "outputPath": "/Users/bjackson/git/TechTests/OptixBuster/OptixBuster.Blazor/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/bjackson/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/Loki-Labs/KCUK/_packaging/KCUK/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/bjackson/git/TechTests/OptixBuster/OptixBuster.Dtos/OptixBuster.Dtos.csproj": {
+                "projectPath": "/Users/bjackson/git/TechTests/OptixBuster/OptixBuster.Dtos/OptixBuster.Dtos.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[8.0.13, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.13, )"
+            },
+            "Microsoft.NET.ILLink.Tasks": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.13, )",
+              "autoReferenced": true
+            },
+            "Microsoft.NET.Sdk.WebAssembly.Pack": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.2, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[8.0.13, 8.0.13]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "/Users/bjackson/git/TechTests/OptixBuster/OptixBuster.DataImport/OptixBuster.DataImport.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/bjackson/git/TechTests/OptixBuster/OptixBuster.DataImport/OptixBuster.DataImport.csproj",
+        "projectName": "OptixBuster.DataImport",
+        "projectPath": "/Users/bjackson/git/TechTests/OptixBuster/OptixBuster.DataImport/OptixBuster.DataImport.csproj",
+        "packagesPath": "/Users/bjackson/.nuget/packages/",
+        "outputPath": "/Users/bjackson/git/TechTests/OptixBuster/OptixBuster.DataImport/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/bjackson/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/Loki-Labs/KCUK/_packaging/KCUK/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/bjackson/git/TechTests/OptixBuster/OptixBuster.Dtos/OptixBuster.Dtos.csproj": {
+                "projectPath": "/Users/bjackson/git/TechTests/OptixBuster/OptixBuster.Dtos/OptixBuster.Dtos.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/bjackson/git/TechTests/OptixBuster/OptixBuster.Dtos/OptixBuster.Dtos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/bjackson/git/TechTests/OptixBuster/OptixBuster.Dtos/OptixBuster.Dtos.csproj",
+        "projectName": "OptixBuster.Dtos",
+        "projectPath": "/Users/bjackson/git/TechTests/OptixBuster/OptixBuster.Dtos/OptixBuster.Dtos.csproj",
+        "packagesPath": "/Users/bjackson/.nuget/packages/",
+        "outputPath": "/Users/bjackson/git/TechTests/OptixBuster/OptixBuster.Dtos/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/bjackson/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/Loki-Labs/KCUK/_packaging/KCUK/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/bjackson/git/TechTests/OptixBuster/OptixBuster.Tests/OptixBuster.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/bjackson/git/TechTests/OptixBuster/OptixBuster.Tests/OptixBuster.Tests.csproj",
+        "projectName": "OptixBuster.Tests",
+        "projectPath": "/Users/bjackson/git/TechTests/OptixBuster/OptixBuster.Tests/OptixBuster.Tests.csproj",
+        "packagesPath": "/Users/bjackson/.nuget/packages/",
+        "outputPath": "/Users/bjackson/git/TechTests/OptixBuster/OptixBuster.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/bjackson/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/Loki-Labs/KCUK/_packaging/KCUK/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/bjackson/git/TechTests/OptixBuster/OptixBuster.Api/OptixBuster.Api.csproj": {
+                "projectPath": "/Users/bjackson/git/TechTests/OptixBuster/OptixBuster.Api/OptixBuster.Api.csproj"
+              },
+              "/Users/bjackson/git/TechTests/OptixBuster/OptixBuster.Blazor/OptixBuster.Blazor.csproj": {
+                "projectPath": "/Users/bjackson/git/TechTests/OptixBuster/OptixBuster.Blazor/OptixBuster.Blazor.csproj"
+              },
+              "/Users/bjackson/git/TechTests/OptixBuster/OptixBuster.DataImport/OptixBuster.DataImport.csproj": {
+                "projectPath": "/Users/bjackson/git/TechTests/OptixBuster/OptixBuster.DataImport/OptixBuster.DataImport.csproj"
+              },
+              "/Users/bjackson/git/TechTests/OptixBuster/OptixBuster.Dtos/OptixBuster.Dtos.csproj": {
+                "projectPath": "/Users/bjackson/git/TechTests/OptixBuster/OptixBuster.Dtos/OptixBuster.Dtos.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
